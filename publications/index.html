@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,15 +12,15 @@
   
 
 <meta itemprop="name" content="Publications">
-<meta itemprop="description" content="Entrepreneur and Researcher">
+<meta itemprop="description" content="A simple monospaced resume theme for Hugo.">
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Publications"/>
-<meta name="twitter:description" content="Entrepreneur and Researcher"/>
+<meta name="twitter:description" content="A simple monospaced resume theme for Hugo."/>
 
 
 <meta property="og:title" content="Publications" />
-<meta property="og:description" content="Entrepreneur and Researcher" />
+<meta property="og:description" content="A simple monospaced resume theme for Hugo." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://carlaviegas.info/publications/" />
 
@@ -33,26 +33,25 @@
   "@graph": [
     {
       "@type":"Person",
-      "@id": "https://carlaviegas.info/#author",
+      "@id": "https://carlaviegas.info#author",
       "name": "Carla Viegas",
       "image": {
         "@type":"ImageObject",
         
-        "url": "https://carlaviegas.info/img/profile.jpg"
         
       },
-      "description": "Entrepreneur and Researcher"
+      "description": "A simple monospaced resume theme for Hugo."
     },
     {
       "@type": "WebSite",
-      "@id": "https://carlaviegas.info/#website",
-      "url": "https://carlaviegas.info/",
+      "@id": "https://carlaviegas.info#website",
+      "url": "https://carlaviegas.info",
       "name": "Carla Viegas",
-      "description": "Entrepreneur and Researcher",
+      "description": "A simple monospaced resume theme for Hugo.",
       "publisher": {
-        "@id": "https://carlaviegas.info/#author"
+        "@id": "https://carlaviegas.info#author"
       },
-      "inLanguage": "en-us"
+      "inLanguage": ""
     },
     {
       "@type": "WebPage",
@@ -60,14 +59,14 @@
       "url": "https://carlaviegas.info/publications/",
       "name": "Publications",
       "isPartOf": {
-        "@id": "https://carlaviegas.info/#website"
+        "@id": "https://carlaviegas.info#website"
       },
       "about": {
-         "@id": "https://carlaviegas.info/#author"
+         "@id": "https://carlaviegas.info#author"
       },
       "dateModified": "2021-07-16T08:47:19-04:00",
-      "description": "Entrepreneur and Researcher",
-      "inLanguage": "en-us",
+      "description": "A simple monospaced resume theme for Hugo.",
+      "inLanguage": "",
       "potentialAction": [
         {
           "@type": "ReadAction",
@@ -97,43 +96,9 @@
         href="/css/hyde.css">
 
   
-<style type="text/css">
-  .sidebar {
-    background-color: #2596be;
-  }
-
-  .read-more-link a {
-    border-color: #2596be;
-  }
-
-  .read-more-link a:hover {
-    background-color: #2596be;
-  }
-
-  .pagination li a {
-    color: #2596be;
-    border: 1px solid #2596be;
-  }
-
-  .pagination li.active a {
-    background-color: #2596be;
-  }
-
-  .pagination li a:hover {
-    background-color: #2596be;
-    opacity: 0.75;
-  }
-
-  footer a,
-  .content a,
-  .related-posts li a:hover {
-    color: #2596be;
-  }
-</style>
 
 
-
-  <link type="text/css" rel="stylesheet" href="/css/blog.css">
+  
 
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
@@ -158,48 +123,48 @@
     <div class="sidebar-about">
       
         
-        <div class="author-image">
-          <a href="https://carlaviegas.info/">
-            <img src="/img/profile.jpg" class="img-circle img-headshot center" alt="Profile Picture">
-          </a>
-        </div>
-        
       
 
       <h1>Carla Viegas</h1>
 
       
-      <p class="lead">Entrepreneur and Researcher</p>
+      <p class="lead">A simple monospaced resume theme for Hugo.</p>
       
     </div>
 
     <nav>
       <ul class="sidebar-nav">
         <li>
-          <a href="https://carlaviegas.info/">Home</a>
+          <a href="https://carlaviegas.info">Home</a>
         </li>
         <li>
-          <a href="/publications/">Publications</a>
+          <a href="/about">About</a>
         </li><li>
-          <a href="/blog/">Blog</a>
+          <a href="/publication-list">Publications</a>
         </li><li>
-          <a href="/about/">About</a>
+          <a href="/blog">Blog</a>
+        </li><li>
+          <a href="/resume.pdf">CV</a>
         </li>
       </ul>
     </nav>
 
     <section class="social-icons">
       
-      <a href="https://www.linkedin.com/in/viegascarla/" rel="me" title="Linkedin" target="_blank">
-        <i class="fab fa-linkedin" aria-hidden="true"></i>
+      <a href="https://www.linkedin.com/in/viegascarla/" rel="me" title="LinkedIn" target="_blank">
+        <i class="fab fab fa-linkedin" aria-hidden="true"></i>
       </a>
       
       <a href="https://github.com/clviegas" rel="me" title="GitHub" target="_blank">
-        <i class="fab fa-github" aria-hidden="true"></i>
+        <i class="fab fab fa-github" aria-hidden="true"></i>
       </a>
       
-      <a href="#" rel="me" title="Twitter" target="_blank">
-        <i class="fab fa-twitter" aria-hidden="true"></i>
+      <a href="https://twitter.com/cl_viegas" rel="me" title="Twitter" target="_blank">
+        <i class="fab fab fa-twitter" aria-hidden="true"></i>
+      </a>
+      
+      <a href="mailto:carla@stellaai.com" rel="me" title="E-mail" target="_blank">
+        <i class="fab fas fa-envelope" aria-hidden="true"></i>
       </a>
       
     </section>
@@ -224,9 +189,9 @@
   <footer>
   <div>
     <p>
-      &copy; Carla Viegas 2021
+      &copy;  2021
 
-      &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+      
 
       
     </p>
@@ -242,7 +207,7 @@
   <script src="/js/jquery.min.js"></script>
   <script src="/js/soho.js"></script>
 
-  <script src="/js/blog.js"></script>
+  
 
   
 </body>
